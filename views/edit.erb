@@ -1,3 +1,5 @@
+<center>
+  <h1>Edit your order</h1>
 <form action="/pizzas/<%= @pizza.id %>" method="POST">
 
   <label for="first-name-field">First name:</label>
@@ -23,6 +25,7 @@
  <label for="quantity">Quantity:</label>
  <input id="quantity" type="number" name="quantity" value="<%=@pizza.quantity%>">
 
- <input type="submit" value="Edit Pizza"/>
+ <input type="submit" class=button value="Edit Pizza"/>
 
 </form>
+</center>

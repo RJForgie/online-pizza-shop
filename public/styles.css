@@ -35,7 +35,7 @@ IMG.displayed {
 
 .button {
     background-color: #4CAF50; /* Green */
-    border: none;
+    border: #000;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -43,4 +43,17 @@ IMG.displayed {
     display: inline-block;
     font-size: 16px;
     width: 180px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white; /* Green */
+    color: white;
 }
